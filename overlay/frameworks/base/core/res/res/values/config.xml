@@ -624,4 +624,10 @@
 
     <!-- Enable pocket mode -->
     <bool name="config_proxiSensorWakupCheck">true</bool> 
+
+    <!-- Enable face auth only when swiping security view -->
+    <bool name="config_faceAuthOnlyOnSecurityView">true</bool>
+
+    <!-- If face auth sends the user directly to home/last open app, or stays on keyguard -->
+    <bool name="config_faceAuthDismissesKeyguard">false</bool>
 </resources>
