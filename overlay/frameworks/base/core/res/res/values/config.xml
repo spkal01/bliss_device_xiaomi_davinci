@@ -618,4 +618,7 @@
     <integer-array name="config_keyboardTapVibePattern">
         <item>20</item>
     </integer-array>
+
+    <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
+    <bool name="config_displayBlanksAfterDoze">false</bool>
 </resources>
