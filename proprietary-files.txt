@@ -396,6 +396,25 @@ vendor/etc/dsi_ss_fhd_eb_f10_cmd_display_mi.xml
 vendor/etc/qdcm_calib_data_ss_ea_fhd_cmd_dsi_panel.xml
 vendor/etc/qdcm_calib_data_ss_eb_fhd_cmd_dsi_panel.xml
 
+# MotoDolbyV3
+-app/MotoDolbyV3/MotoDolbyV3.apk
+-product/priv-app/daxService/daxService.apk
+etc/permissions/com.motorola.dolby.dolbyui.features.xml
+etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml
+product/etc/permissions/com.dolby.daxservice.xml
+vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
+vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc
+vendor/etc/dolby/dax-default.xml
+vendor/lib/libdapparamstorage.so
+vendor/lib/libstagefrightdolby.so
+vendor/lib/vendor.dolby.hardware.dms@1.0.so
+vendor/lib/soundfx/libswdap.so
+vendor/lib64/libdapparamstorage.so
+vendor/lib64/libdlbdsservice.so
+vendor/lib64/soundfx/libswdap.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0.so
+
 # DPM
 framework/tcmclient.jar
 product/bin/dpmd
