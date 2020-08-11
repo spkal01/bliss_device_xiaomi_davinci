@@ -635,6 +635,13 @@
         <item>20</item>
     </integer-array>
 
+    <!-- Display mode remapping table -->
+    <string-array name="config_displayModeMappings" translatable="false">
+        <item>none:standard</item>
+        <item>hal_dci_p3:dci_p3</item>
+        <item>hal_srgb:srgb</item>
+    </string-array>
+
     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
     <bool name="config_displayBlanksAfterDoze">false</bool>
 
