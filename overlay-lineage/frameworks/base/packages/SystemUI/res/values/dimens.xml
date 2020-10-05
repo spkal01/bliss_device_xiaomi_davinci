@@ -12,7 +12,9 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Max Height of the sliding KeyguardSecurityContainer
-         (includes 2x keyguard_security_view_top_margin) -->
-    <dimen name="keyguard_security_max_height">550dp</dimen>
+    <!-- The margin between the pattern view and the Emergency Carrier area -->
+    <dimen name="pattern_view_bottom_margin">280px</dimen>
+
+    <!-- The margin between the pin view and the Emergency Carrier area -->
+    <dimen name="pin_view_bottom_margin">280px</dimen>
 </resources>
