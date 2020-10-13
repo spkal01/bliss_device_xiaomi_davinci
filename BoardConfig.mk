@@ -122,7 +122,11 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET := 0x01000000
 
+# Use clang 12 for kernel
 TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := 12.0
+KERNEL_TOOLCHAIN_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-12.0/bin/aarch64-linux-gnu-
+
 TARGET_KERNEL_CONFIG := davinci_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
 
