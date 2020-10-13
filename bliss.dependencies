@@ -1,0 +1,25 @@
+[
+  {
+    "remote": "github",
+    "repository": "kdrag0n/proton-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-12.0",
+    "revision": "master"
+  },
+  {
+    "remote": "github",
+    "repository": "vantoman/Kernel_davinci_priv"
+    "target_path": "kernel/xiaomi/sm6150"
+    "revision": "VantomKernel"
+  },
+  { 
+    "remote": "github",
+    "repository": "spkal01/vendor_xiaomi_davinci"
+    "target_path": "vendor/xiaomi/davinci"
+    "revision": "bliss"
+  },
+  { 
+    "remote": "github",
+    "repository": "spkal01/bliss_device_xiaomi_davinci"
+    "target_path": "device/xiaomi/davinci"
+    "revision": "bliss"
+]
