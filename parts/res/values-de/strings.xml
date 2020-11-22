@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Popup camera settings -->
+    <string name="popup_title">Front-Kamera Einstellungen</string>
+    <string name="popup_led_title">Front-Kamera LED</string>
+    <string name="popup_led_summary">Aktiviere Front-Kamera LED beim Ein/Ausfahren</string>
+    <string name="popup_sound_title">Soundeffekte</string>
+    <string name="popup_sound_muqin">Xylophone</string>
+    <string name="popup_sound_yingyan">Condor</string>
+    <string name="popup_sound_mofa">Magic</string>
+    <string name="popup_sound_jijia">Mecha</string>
+    <string name="popup_sound_chilun">Gearwheel</string>
+    <string name="popup_sound_cangmen">Cabin door</string>
+    <string name="popup_sound_imperial_march">Star Wars© Imperial March</string>
+    <string name="popup_sound_lightsaber">Star Wars© Lightsaber</string>
+    <string name="popup_sound_throne_room">Star Wars© Throne Room </string>
+    <string name="popup_calibration_title">Kalibrierung</string>
+    <string name="popup_calibration_summary">Kalibriere Front-Kamera Motor</string>
+    <string name="popup_calibration_warning_title">Motor Kalibrierung</string>
+    <string name="popup_calibration_warning_text">Unnötiges Kalibrieren kann permanenten Schaden verursachen. Es wird empfohlen die Kalibrierung nur dann durchzuführen, wenn die Front-Kamera nicht ordnungsgemäß ein/ausfährt.</string>
+
+    <!-- DC dimming settings -->
+    <string name="dc_dimming_enable_title">DC Dimming</string>
+    <string name="dc_dimming_enable_summary">Reduziert Überanstrengung der Augen durch erweitertes Dimmen des Displays bei Dunkelheit</string>
+    <string name="dc_dimming_enable_summary_not_supported">Dimming wird aktuell nicht vom Kernel unterstützt</string>
+
+    <!-- Pick-up to wake gesture-->
+    <string name="wake_gesture_title">Gerät aktivieren</string>
+    <string name="wake_gesture_summary">Gerät statt Pulse-Benachrichtigung aktivieren</string>
+
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Thermale Profile</string>
+    <string name="thermal_summary">Thermale Profile für einzelne Apps zwecks optimaler Performance festlegen</string>
+    <string name="thermal_default">Standard</string>
+    <string name="thermal_benchmark">Benchmark</string>
+    <string name="thermal_browser">Browser</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_dialer">Telefon-App</string>
+    <string name="thermal_gaming">Gaming</string>
+    <string name="thermal_streaming">Streaming</string>
+
+    <!-- Touch Control Settings -->
+    <string name="touch_control_title">Touch Einstellungen</string>
+    <string name="touch_game_mode_title">Aktiviere Gaming Modus</string>
+    <string name="touch_game_mode_summary">Erhöht Touch Sampling Rate auf 180Hz</string>
+    <string name="touch_response_title">Touch response</string>
+    <string name="touch_response_summary">Einstellungen für Berührungsempfindlichkeit</string>
+    <string name="touch_sensitivity_title">Berührungsempfindlichkeit</string>
+    <string name="touch_sensitivity_summary">Berührungsempfindlichkeit bei wiederholtem Berühren</string>
+    <string name="touch_resistant_title">berührungssicherer Bereich</string>
+    <string name="touch_resistant_summary">Reduziere Berührungsempfindlichkeit am Rand des Bildschirms um unabsichtlichen Input zu vermeiden</string>
+
+    <!-- Popup camera strings -->
+    <string name="popup_camera_tip">Warnung</string>
+    <string name="popup_camera_takeback_failed_calibrate">Front-Kamera kann nicht eingefahren werden. Versuchen Sie den Motor zu kalibrieren.</string>
+    <string name="popup_camera_popup_failed_calibrate">Front-Kamera kann nicht ausgefahren werden. Versuchen Sie den Motor zu kalibrieren.</string>
+    <string name="popup_camera_calibrate_running">Front-Kamera kann während der Kalibrierung nicht verwendet werden.</string>
+    <string name="popup_camera_calibrate_now">Kalibrierung starten</string>
+    <string name="popup_camera_calibrate_failed">Kalibrierung gescheitert.</string>
+    <string name="popup_camera_calibrate_success">Kalibrierung erfolgreich. Front-Kamera ist wieder benutzbar.</string>
+</resources>
