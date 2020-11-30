@@ -61,23 +61,30 @@ public class KcalSettingsFragment extends PreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference.getKey().equals("kcal_enable")) {
-            KcalUtils.writeConfigToNode(KcalUtils.KCAL_ENABLE_NODE, 0, (Boolean) newValue ? 1 : 0);
-        } else if (preference.getKey().equals("red_slider")) {
-             KcalUtils.writeConfigToNode(KcalUtils.KCAL_RGB_NODE, 1, (Integer) newValue);
-             preference.setSummary(String.valueOf(newValue));
-        } else if (preference.getKey().equals("green_slider")) {
-            KcalUtils.writeConfigToNode(KcalUtils.KCAL_RGB_NODE, 2, (Integer) newValue);
-            mGreenColorSlider.setSummary(String.valueOf(newValue));
-        } else if (preference.getKey().equals("blue_slider")) {
-            KcalUtils.writeConfigToNode(KcalUtils.KCAL_RGB_NODE, 3, (Integer) newValue);
-            mBlueColorSlider.setSummary(String.valueOf(newValue));
-        } else if (preference.getKey().equals("saturation_slider")) {
-            KcalUtils.writeConfigToNode(KcalUtils.KCAL_SATURATION_NODE, 0, (Integer) newValue);
-            mSaturationSlider.setSummary(String.valueOf(newValue));
-        } else if (preference.getKey().equals("contrast_slider")) {
-            KcalUtils.writeConfigToNode(KcalUtils.KCAL_CONTRAST_NODE, 0, (Integer) newValue);
-            mContrastSlider.setSummary(String.valueOf(newValue));
+        switch (preference.getKey()){
+            case "kcal_enable":
+                KcalUtils.writeConfigToNode(KcalUtils.KCAL_ENABLE_NODE, 0, (Boolean) newValue ? 1 : 0);
+                break;
+            case "red_slider":
+                KcalUtils.writeConfigToNode(KcalUtils.KCAL_RGB_NODE, 1, (Integer) newValue);
+                mRedColorSlider.setSummary(String.valueOf(newValue));
+                break;
+            case "green_slider":
+                KcalUtils.writeConfigToNode(KcalUtils.KCAL_RGB_NODE, 2, (Integer) newValue);
+                mGreenColorSlider.setSummary(String.valueOf(newValue));
+                break;
+            case "blue_slider":
+                KcalUtils.writeConfigToNode(KcalUtils.KCAL_RGB_NODE, 3, (Integer) newValue);
+                mBlueColorSlider.setSummary(String.valueOf(newValue));
+                break;
+            case "saturation_slider":
+                KcalUtils.writeConfigToNode(KcalUtils.KCAL_SATURATION_NODE, 0, (Integer) newValue);
+                mSaturationSlider.setSummary(String.valueOf(newValue));
+                break;
+            case "contrast_slider":
+                KcalUtils.writeConfigToNode(KcalUtils.KCAL_CONTRAST_NODE, 0, (Integer) newValue);
+                mContrastSlider.setSummary(String.valueOf(newValue));
+                break;
         }
         return true;
     }
